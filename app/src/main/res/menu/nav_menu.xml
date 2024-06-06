@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_map_24"
+            android:title="Gasolineras"/>
+
+        <item
+            android:id="@+id/map_search"
+            android:icon="@drawable/baseline_zoom_out_map_24"
+            android:title="Rango del mapa"/>-
+
+        <item
+            android:id="@+id/nav_gasList"
+            android:icon="@drawable/baseline_local_gas_station_24"
+            android:title="Lista de gasolineras"/>
+
+        <item
+            android:id="@+id/nav_tankCap"
+            android:icon="@drawable/baseline_directions_car_filled_24"
+            android:title="Capacidad del deposito"/>
+
+        <item
+            android:id="@+id/fuel_type"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Tipo de carburante"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/baseline_info_24"
+                android:title="Sobre la app" />
+        </menu>
+    </item>
+</menu>
